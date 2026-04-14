@@ -1,6 +1,6 @@
 # ML Agent
 
-An MLE agent CLI with MCP (Model Context Protocol) integration and built-in tool support.
+An MLE agent that researches, writes, and ships good quality ML releated code using the Hugging Face ecosystem — with deep access to docs, papers, datasets, and cloud compute.
 
 ## Quick Start
 
@@ -18,11 +18,9 @@ Create a `.env` file in the project root (or export these in your shell):
 ```bash
 ANTHROPIC_API_KEY=<your-anthropic-api-key> # if using anthropic models
 HF_TOKEN=<your-hugging-face-token>
-GITHUB_TOKEN=<github-personal-access-token>
-HF_NAMESPACE=<your-hf-namespace>
+GITHUB_TOKEN=<github-personal-access-token> 
 ```
-
-If no `HF_TOKEN` is set, the CLI will prompt you to paste one on first launch.
+If no `HF_TOKEN` is set, the CLI will prompt you to paste one on first launch. To get a GITHUB_TOKEN follow the tutorial [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
 
 #### That's it. Now `ml-agent` works from any directory:
 
